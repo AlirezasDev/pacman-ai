@@ -55,3 +55,8 @@ The existing wrapper enforces a five-second process limit and returns `Action.ST
 The implementation was syntax-compiled, each agent was called on a live headless game state, returned actions were checked against `get_legal_actions()`, and short episodes were run for all three agents. A same-depth Minimax/alpha-beta decision check also returned the same action on the tested deterministic state.
 
 The runtime used for these checks did not have Pygame installed, so the headless engine checks used a temporary import stub. The actual graphical window was not tested in this environment. Install the dependency from `requirements.txt` before running the project locally.
+
+
+## Use of AI
+
+AI was utilized to help understand existing portions of the code and to generate ideas for implementing the remaining parts.
